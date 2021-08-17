@@ -1,0 +1,176 @@
+@media screen and (max-width: 1870px) {
+    .header-menu-nav {
+        grid-gap: 15px;
+        grid-auto-flow: column;
+    }
+    .information,
+    .footer {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .header-menu-nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: 45px;
+    }
+    .header-menu-main-img {
+        display: none;
+    }
+    .header-menu-main {
+        justify-items: center;
+        grid-template-columns: 1fr;
+        margin-top: 25%;
+    }
+    .header-menu-main-text {
+        grid-gap: 30px;
+    }
+    .information-8 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1310px) {
+    .footer {
+        width: 60%;
+        grid-template-areas:
+        "footer-5 footer-6 footer-9 footer-9"
+        "footer-7 footer-8 footer-9 footer-9"
+        "footer-10 footer-10 footer-11 footer-11"
+        "footer-1 footer-1 footer-3 footer-3"
+        "footer-2 footer-4 footer-4 footer-4";
+    }
+    textarea,
+    .honors,
+    .footer_contacts {
+        width: 100%;
+    }
+    .footer-3,
+    .footer-4 {
+        justify-self: right;
+    }
+
+    .gazprom {
+        margin: 0 auto;
+        grid-template-areas:
+            "gazprom-1 gazprom-2 gazprom-3"
+            "gazprom-4 gazprom-5 gazprom-6";
+    }
+
+    .gazprom-7,
+    .gazprom-8 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .footer {
+        width: 100%;
+        grid-template-columns: auto;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .site-container {
+        max-width: 90%;
+    }
+    .header-menu-main {
+        margin-top: 0;
+        padding-top: 40%;
+    }
+    .header-menu-contacts,
+    .header-menu-nav{
+        display: none;
+    }
+    .header-menu-burger {
+        display: block;
+    }
+    .phone {
+        display: block;
+    }
+    .gazprom {
+        grid-gap: 0 50px;
+    }
+    .projects > img {
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .information {
+        grid-template-areas:
+            "information-1 information-1"
+            "information-2 information-2"
+            "information-3 information-3"
+            "information-4 information-6"
+            "information-5 information-7";
+        justify-items: center;
+        grid-gap: 30px 0;
+    }
+    .information-8,
+    .gazprom-5,
+    .gazprom-6 {
+        display: none;
+    }
+
+    .gazprom {
+    overflow: hidden;
+    margin: 0 auto;
+    grid-template-areas:
+        "gazprom-1 gazprom-2"
+        "gazprom-3 gazprom-4";
+    }
+    .footer {
+        grid-template-areas:
+            "footer-5 footer-5 footer-6 footer-6"
+            "footer-7 footer-7 footer-8 footer-8"
+            "footer-9 footer-9 footer-9 footer-9"
+            "footer-11 footer-11 footer-11 footer-11"
+            "footer-10 footer-10 footer-10 footer-10"
+            "footer-1 footer-1 footer-3 footer-3"
+            "footer-2 footer-2 footer-4 footer-4";
+    }
+    .footer-10,
+    .footer-11 {
+        justify-self: center;
+    }
+    h1,
+    .honors-1 {
+        font-size: 54px;
+    }
+
+    .footer > input {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        grid-gap: 10px 15px;
+    }
+    .honors-1 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+    .honors-3 {
+        font-size: 20px;
+    }
+    
+}
+
+@media screen and (max-width: 465px) {
+    .footer {
+        grid-template-areas:
+            "footer-5  footer-5"
+            "footer-6  footer-6"
+            "footer-7  footer-7"
+            "footer-8  footer-8"
+            "footer-9  footer-9"
+            "footer-11  footer-11"
+            "footer-10  footer-10"
+            "footer-1  footer-3"
+            "footer-2  footer-4";
+    }
+}
